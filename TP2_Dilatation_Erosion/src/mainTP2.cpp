@@ -1,7 +1,7 @@
 // seuil_auto.cpp : Seuille une image en niveau de gris automatiquement
 
 #include <stdio.h>
-#include "image_ppm.h"
+#include "../header/image_ppm.h"
 
 void erosion(OCTET *ImgIn,OCTET *ImgOut,int nH, int nW){
 
