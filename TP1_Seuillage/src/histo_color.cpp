@@ -1,6 +1,6 @@
 // histo_couleur.cpp : Affiche l'histogramme d'une image en couleur
 #include <stdio.h>
-#include "image_ppm.h"
+#include "../header/image_ppm.h"
 
 int main(int argc, char* argv[])
 {

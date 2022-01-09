@@ -1,7 +1,7 @@
 // test_couleur.cpp : Seuille une image couleur 
 
 #include <stdio.h>
-#include "image_ppm.h"
+#include "../header/image_ppm.h"
 
 int main(int argc, char* argv[])
 {
@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
   
   if (argc != 6) 
      {
-       printf("Usage: ImageIn.ppm ImageOut.ppm SeuilRouge SeuilVert SeuilBleu \n"); 
+       printf("Usage: ImageIn.ppm ImageOut.ppm RedThreshold GreenThreshold BlueThreshold \n"); 
        exit (1) ;
      }
    

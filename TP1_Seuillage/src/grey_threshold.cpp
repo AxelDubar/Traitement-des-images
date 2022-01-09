@@ -1,7 +1,7 @@
 // test_couleur.cpp : Seuille une image en niveau de gris
 
 #include <stdio.h>
-#include "image_ppm.h"
+#include "../header/image_ppm.h" 
 
 int main(int argc, char* argv[])
 {
@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
   
   if (argc != 4) 
      {
-       printf("Usage: ImageIn.pgm ImageOut.pgm Seuil \n"); 
+       printf("Usage: ImageIn.pgm ImageOut.pgm Thershold \n"); 
        exit (1) ;
      }
    
